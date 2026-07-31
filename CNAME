@@ -1,1 +1,0 @@
-korta.co.za
