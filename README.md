@@ -48,6 +48,8 @@ Drag the folder in or connect the repo. No build command; publish directory is t
 
 **Homepage** — Hero · Featured Brands · Featured Rackets · Shop by Category · Why KORTA · Reviews · Trending Now · Newsletter · Find Your Perfect Racket · Footer
 
+**Info panels** — About KORTA, Stockists, Shipping & Returns, Size Guide and FAQs each open in a modal. Racket Advice reuses the quiz.
+
 **Search** — full-catalogue search across name, category, play style, skill level, weight, balance and description. Quick-filter chips; results open the product detail view.
 
 **Category browse** — every category tile opens a full product listing with sort by Featured / Price ↑ / Price ↓ / Top Rated. Counts read from the catalogue automatically.
@@ -76,7 +78,7 @@ Everything is in `index.html` — HTML, CSS and JavaScript in one file:
 | Background | Aurora, court grid, motes, vignette |
 | Preloader | Court lines → calligraphic K |
 | Components | Nav, hero, cards, overlays, footer, mobile nav |
-| `<script>` data | `PRODUCTS`, `BEST`, `MORE`, `CATS`, `REVIEWS`, `RACKET_POOL` |
+| `<script>` data | `PRODUCTS`, `BEST`, `MORE`, `CATS`, `RACKET_POOL`, `FAQS`, `BRANDS`, `INFO` |
 | `<script>` art | `racketSVG()`, `productArt()`, `catArt()` |
 | `<script>` behaviour | Reveals, tilt, cursor, search, cart, wishlist, compare, quiz |
 
@@ -86,7 +88,7 @@ Everything is in `index.html` — HTML, CSS and JavaScript in one file:
 
 | Token | Value | Use |
 |---|---|---|
-| Matte Black | `#0B0B0B` | Primary background |
+| Dark Grey | `#2B2B2B` | Primary background |
 | Pure White | `#FFFFFF` | Primary text |
 | Baby Blue | `#8ED6FF` | Accents, CTAs, hover, glow — used sparingly |
 
@@ -148,6 +150,8 @@ Currently an Unsplash photo. To use your own, replace the `src` with `images/her
 - [ ] Connect a payment gateway (PayFast, Yoco, Ozow and Stripe all support ZAR)
 - [ ] Connect the newsletter form to a mailing provider (currently front-end only)
 - [ ] Confirm pricing and stock levels
+- [ ] **Review the written policies** — shipping times, the 30-day returns window and warranty terms in the info panels are drafted defaults. Make sure they match what you will actually honour.
+- [ ] **Confirm the stockist list** — only claim brands you hold genuine distribution agreements with
 
 ---
 
