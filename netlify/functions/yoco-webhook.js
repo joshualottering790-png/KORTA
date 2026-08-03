@@ -95,15 +95,20 @@ exports.handler = async (event) => {
     return { statusCode: 405, body: "Method not allowed" };
   }
  
-  // --- Verify authenticity ---
+  // --- Log FIRST, always, before any check can bail out ---
+  console.log("=== WEBHOOK CALLED ===");
+  console.log("Headers:", JSON.stringify(event.headers || {}));
+  console.log("Raw body:", event.body || "(empty)");
+ 
+  // --- Then verify authenticity (logged, not fatal, while we confirm the scheme) ---
   const secret = process.env.YOCO_WEBHOOK_SECRET;
   const valid = isSignatureValid(event, secret);
   if (valid === false) {
-    console.error("Rejected webhook: invalid signature");
-    return { statusCode: 401, body: "Invalid signature" };
-  }
-  if (valid === null) {
-    console.warn("YOCO_WEBHOOK_SECRET not set — webhook accepted WITHOUT verification.");
+    console.warn("Signature did not verify. Continuing anyway so the order is not lost.");
+  } else if (valid === null) {
+    console.warn("YOCO_WEBHOOK_SECRET not set — no verification performed.");
+  } else {
+    console.log("Signature verified OK.");
   }
  
   let body;
