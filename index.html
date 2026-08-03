@@ -1028,6 +1028,29 @@ footer{position:relative;z-index:3;}
   .cmp-badge{font-size:8.5px;padding:4px 9px;top:8px;}
 }
 
+/* ---- CHECKOUT FIELDS ---- */
+.co-fields{display:flex;flex-direction:column;gap:10px;margin-bottom:26px;}
+.co-fields input,.co-fields textarea{
+  width:100%;padding:14px 16px;border-radius:12px;
+  border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.03);
+  color:#fff;font-size:14px;font-family:var(--f-body);resize:vertical;
+  color-scheme:dark;-webkit-text-fill-color:#fff;
+  transition:border-color .3s, background .3s;
+}
+.co-fields input::placeholder,.co-fields textarea::placeholder{color:var(--muted-dark);}
+.co-fields input:focus,.co-fields textarea:focus{outline:none;border-color:var(--blue);background:rgba(142,214,255,.06);}
+.co-fields input.err,.co-fields textarea.err{border-color:#ff8080;}
+.co-error{color:#ff8080;font-size:12.5px;min-height:16px;}
+
+.pay-single{
+  display:flex;align-items:center;gap:14px;padding:16px 18px;border-radius:14px;
+  border:1px solid var(--blue);background:rgba(142,214,255,.10);margin-bottom:26px;
+}
+.pay-single .pay-name{display:block;font-size:14.5px;font-weight:600;}
+.pay-single .pay-desc{display:block;font-size:11.5px;color:var(--muted-dark);margin-top:2px;}
+
+.btn.loading{opacity:.6;pointer-events:none;}
+
 @keyframes badgePop{
   0%{transform:scale(.5);}
   60%{transform:scale(1.35);}
@@ -1426,37 +1449,26 @@ footer{position:relative;z-index:3;}
 
     <div class="co-summary" id="coSummary"></div>
 
-    <div class="co-label">Payment Method</div>
-    <div class="pay-opts">
-      <button class="pay sel" data-pay="Card">
-        <span class="pay-ic"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20"/></svg></span>
-        <span><span class="pay-name">Credit / Debit Card</span><span class="pay-desc">Visa, Mastercard, Amex</span></span>
-        <span class="pay-check"></span>
-      </button>
-      <button class="pay" data-pay="Instant EFT">
-        <span class="pay-ic"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10M19 21V10M12 3l9 6H3z"/></svg></span>
-        <span><span class="pay-name">Instant EFT</span><span class="pay-desc">Ozow · Direct from your bank</span></span>
-        <span class="pay-check"></span>
-      </button>
-      <button class="pay" data-pay="SnapScan">
-        <span class="pay-ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM19 19h2v2h-2z"/></svg></span>
-        <span><span class="pay-name">SnapScan</span><span class="pay-desc">Scan to pay from your phone</span></span>
-        <span class="pay-check"></span>
-      </button>
-      <button class="pay" data-pay="PayFast">
-        <span class="pay-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h5M9.5 14.5h5"/></svg></span>
-        <span><span class="pay-name">PayFast</span><span class="pay-desc">Card, EFT, Mobicred &amp; more</span></span>
-        <span class="pay-check"></span>
-      </button>
-      <button class="pay" data-pay="Apple Pay">
-        <span class="pay-ic"><svg viewBox="0 0 24 24"><path d="M12 6c1-2 3-3 4-3 .2 2-1 4-2 5"/><path d="M16 9c2 0 4 2 4 5 0 4-3 7-4 7-1.5 0-2-1-3-1s-1.5 1-3 1c-1 0-4-3-4-7 0-3 2-5 4-5 1.5 0 2 1 3 1s1.5-1 3-1z"/></svg></span>
-        <span><span class="pay-name">Apple Pay / Google Pay</span><span class="pay-desc">One-tap on supported devices</span></span>
-        <span class="pay-check"></span>
-      </button>
+    <div class="co-label">Delivery Details</div>
+    <div class="co-fields">
+      <input type="text"  id="coName"    placeholder="Full name" autocomplete="name">
+      <input type="email" id="coEmail"   placeholder="Email address" autocomplete="email">
+      <input type="tel"   id="coPhone"   placeholder="Mobile number" autocomplete="tel">
+      <textarea id="coAddress" rows="3" placeholder="Delivery address, suburb, city, postal code" autocomplete="street-address"></textarea>
+      <div class="co-error" id="coError"></div>
     </div>
 
-    <button class="btn btn-primary" id="payNow"><span>Pay Now</span></button>
-    <div class="co-note">Demo checkout — no payment gateway is connected yet, so nothing is charged.</div>
+    <div class="co-label">Payment</div>
+    <div class="pay-single">
+      <span class="pay-ic"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="3"/><path d="M2 10h20"/></svg></span>
+      <span>
+        <span class="pay-name">Secure payment by Yoco</span>
+        <span class="pay-desc">Card, Apple Pay &amp; Google Pay on the next screen</span>
+      </span>
+    </div>
+
+    <button class="btn btn-primary" id="payNow"><span>Pay Securely</span></button>
+    <div class="co-note">You&rsquo;ll be taken to Yoco&rsquo;s secure page to complete payment. KORTA never sees your card details.</div>
   </div>
 </div>
 
@@ -2227,20 +2239,90 @@ if(wishAllToBag) wishAllToBag.addEventListener('click', ()=>{
   showToast(`${names.length} item${names.length>1?'s':''} moved to bag`);
 });
 
-/* ---- payment selection ---- */
-document.querySelectorAll('.pay').forEach(btn=>{
-  btn.addEventListener('click', ()=>{
-    document.querySelectorAll('.pay').forEach(p=>p.classList.remove('sel'));
-    btn.classList.add('sel');
-    payMethod = btn.dataset.pay;
-  });
-});
+/* ---- real payment via Yoco ---- */
+function coField(id){ return document.getElementById(id); }
+
+function validateCheckout(){
+  const err = coField('coError');
+  const fields = [
+    ['coName',    v => v.trim().length >= 2,                  'Please enter your full name'],
+    ['coEmail',   v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()), 'Please enter a valid email address'],
+    ['coPhone',   v => v.replace(/\D/g,'').length >= 9,       'Please enter a valid mobile number'],
+    ['coAddress', v => v.trim().length >= 12,                 'Please enter your full delivery address'],
+  ];
+  document.querySelectorAll('.co-fields input, .co-fields textarea').forEach(f=>f.classList.remove('err'));
+  for(const [id, test, msg] of fields){
+    const el = coField(id);
+    if(!el || !test(el.value)){
+      if(el){ el.classList.add('err'); el.focus(); }
+      if(err) err.textContent = msg;
+      return null;
+    }
+  }
+  if(err) err.textContent = '';
+  return {
+    name:    coField('coName').value.trim(),
+    email:   coField('coEmail').value.trim(),
+    phone:   coField('coPhone').value.trim(),
+    address: coField('coAddress').value.trim(),
+  };
+}
 
 const payNow = document.getElementById('payNow');
-if(payNow) payNow.addEventListener('click', ()=>{
-  const total = formatRand(CART.reduce((t,i)=> t + priceToNumber(i.price)*i.qty, 0));
-  showToast(`${payMethod} · ${total} — gateway not connected`);
+if(payNow) payNow.addEventListener('click', async ()=>{
+  if(!CART.length){ showToast('Your bag is empty'); return; }
+
+  const details = validateCheckout();
+  if(!details) return;
+
+  const label = payNow.querySelector('span');
+  const original = label ? label.textContent : '';
+  payNow.classList.add('loading');
+  if(label) label.textContent = 'Starting secure payment…';
+
+  try{
+    const res = await fetch('/api/create-checkout', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({
+        cart: CART.map(i=>({name:i.name, qty:i.qty})),
+        ...details
+      })
+    });
+    const data = await res.json().catch(()=>({}));
+
+    if(!res.ok || !data.redirectUrl){
+      throw new Error(data.error || 'Could not start payment');
+    }
+    // hand over to Yoco's secure page
+    window.location.href = data.redirectUrl;
+  }catch(err){
+    console.error(err);
+    const e = coField('coError');
+    if(e) e.textContent = err.message || 'Something went wrong. Please try again.';
+    payNow.classList.remove('loading');
+    if(label) label.textContent = original;
+  }
 });
+
+/* ---- returning from Yoco ---- */
+(function handlePaymentReturn(){
+  const params = new URLSearchParams(window.location.search);
+  const status = params.get('payment');
+  if(!status) return;
+
+  if(status === 'success'){
+    CART.length = 0;
+    updateCartBadge(); renderCart();
+    setTimeout(()=> showToast('Payment successful — confirmation on its way'), 1200);
+  } else if(status === 'cancelled'){
+    setTimeout(()=> showToast('Payment cancelled — your bag is still here'), 1200);
+  } else if(status === 'failed'){
+    setTimeout(()=> showToast('Payment did not go through. Please try again.'), 1200);
+  }
+  // tidy the address bar
+  window.history.replaceState({}, '', window.location.pathname);
+})();
 
 /* ============================================================
    WISHLIST — same drawer pattern as the cart
