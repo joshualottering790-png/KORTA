@@ -54,6 +54,16 @@ const PRICES = {
 
 const YOCO_API = "https://payments.yoco.com/api/checkouts";
 
+// ---------------------------------------------------------------------------
+// SOLD OUT
+// Add a product name here to stop it being bought, even if someone edits the
+// website in their browser. Must match the name in index.html exactly.
+// Delete the line again when it is back in stock.
+// ---------------------------------------------------------------------------
+const SOLD_OUT = [
+  // "Adidas Metalbone",
+];
+
 exports.handler = async (event) => {
   const headers = {
     "Content-Type": "application/json",
@@ -104,6 +114,12 @@ exports.handler = async (event) => {
     if (unitPrice === undefined) {
       unknown.push(name);
       continue;
+    }
+    if (SOLD_OUT.includes(name)) {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({ error: `${name} is sold out. Please remove it from your bag.` }),
+      };
     }
     totalRand += unitPrice * qty;
     lineItems.push({
