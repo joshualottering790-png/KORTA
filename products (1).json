@@ -1,0 +1,1774 @@
+[
+ {
+  "sku": "BUL-RAC-VER05",
+  "slug": "vertex-05",
+  "name": "VERTEX 05",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "Juan Tello uses the new Vertex 05. Bullpadel have perfected the core to deliver an even more advanced performance. Its double diagonal bridge, now with a more triangular geometry, optimises the distribution of forces between the rackets edges. These changes offer a core that gives greater stability and control, allowing the player to deliver more power and precision both from the baseline and at the net. The result is a high-performance rackets that adapts to the most demanding players and guarantees a complete playing",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "ROUGH",
+   "face": "X-TEND CARBON FIBRE 12K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-05-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-05-1.jpg",
+   "https://korta.co.za/images/products/vertex-05-2.jpg",
+   "https://korta.co.za/images/products/vertex-05-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 7
+ },
+ {
+  "sku": "BUL-RAC-VER05G",
+  "slug": "vertex-05-geo",
+  "name": "VERTEX 05 GEO",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Vertex 05 Geo is used by the talented Pablo Cardona. The Geometric Shape frame maximises the contact area, increasing the sweetspot size across the face. Bullpadel have perfected the core to deliver even more advanced performance. Its double diagonal bridge, now with a more triangular geometry, optimises the distribution of forces between the rackets edges. These changes offer a core that gives greater stability and control, allowing the player to deliver more power and precision both from the baseline and at the net.",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "GEOMETRIC DIAMOND",
+   "balance": "HIGH",
+   "surface": "ROUGH",
+   "face": "X-TEND CARBON FIBRE 3K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-05-geo-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-05-geo-1.jpg",
+   "https://korta.co.za/images/products/vertex-05-geo-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 9
+ },
+ {
+  "sku": "BUL-RAC-VER05H",
+  "slug": "vertex-05-hybrid",
+  "name": "VERTEX 05 HYBRID",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "With the Vertex 05 Hybrid, the Teardop shape offers a lower, more manageable balance, ideal for players who prefer control. Bullpadel have perfected the core to deliver even more advanced performance. Its double diagonal bridge, now with a more triangular geometry, optimises the distribution of forces between the rackets edges. These changes offer a core that gives greater stability and control, allowing the player to deliver greater power and precision both from the baseline and at the net. The result is a high-performance rackets that adapts to the all players and guarantees a complete playing experience.",
+  "specs": {
+   "weight": "365 - 375 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "HIGH",
+   "surface": "ROUGH",
+   "face": "X-TEND CARBON FIBRE 12K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-05-hybrid-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-05-hybrid-1.jpg",
+   "https://korta.co.za/images/products/vertex-05-hybrid-2.jpg",
+   "https://korta.co.za/images/products/vertex-05-hybrid-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 10
+ },
+ {
+  "sku": "BUL-RAC-VER05C",
+  "slug": "vertex-05-comfort",
+  "name": "VERTEX 05 COMFORT",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Vertex Comfort has a Fibrix face and the dual-density MultiEVA core, giving it a great mix of power and control and a softer strike on the ball. The result is a racket that is comfortable to use, with good power and excellent control. Bullpadel have perfected the core to deliver even more performance. Its double diagonal bridge, now with a more triangular geometry, optimises the distribution of forces between the rackets edges. These changes offer a core that gives greater stability and control, allowing the player to more control from the baseline and at the net.",
+  "specs": {
+   "weight": "360 - 370 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-05-comfort-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-05-comfort-1.jpg",
+   "https://korta.co.za/images/products/vertex-05-comfort-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 11
+ },
+ {
+  "sku": "BUL-RAC-VER05W",
+  "slug": "vertex-05-w",
+  "name": "VERTEX 05 W",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Vertex 05 Woman is Delfi Brea’s latest racket. The racket shares the new diagonal double-bridge core with the rest of the Vertex 05 range, now with a more triangular geometry that optimises the distribution of forces between the rackets edges. Bullpadel have achieved a core that offers greater stability and control, allowing the player to deliver greater power and precision both from the baseline and at the net. A lightweight racket, perfect for minimising injuries.",
+  "specs": {
+   "weight": "350-360 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-05-w-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-05-w-1.jpg",
+   "https://korta.co.za/images/products/vertex-05-w-2.jpg",
+   "https://korta.co.za/images/products/vertex-05-w-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 13
+ },
+ {
+  "sku": "BUL-RAC-HAC04",
+  "slug": "hack-04",
+  "name": "HACK 04",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "A faster, more powerful, more dynamic, and more agile racket than last years edition, thanks to a number of new",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "TRI CARBON 18K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/hack-04-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/hack-04-1.jpg",
+   "https://korta.co.za/images/products/hack-04-2.jpg",
+   "https://korta.co.za/images/products/hack-04-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 15
+ },
+ {
+  "sku": "BUL-RAC-HAC04H",
+  "slug": "hack-04-hybrid",
+  "name": "HACK 04 HYBRID",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Hack 04 Hybrid is a racket designed with Total Channel technology and a triple bridge for the heart. This hybrid Teardrop",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "MEDIUM",
+   "surface": "3D ROUGH",
+   "face": "ALUMINISED CARBON FIBRE 18K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/hack-04-hybrid-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/hack-04-hybrid-1.jpg",
+   "https://korta.co.za/images/products/hack-04-hybrid-2.jpg",
+   "https://korta.co.za/images/products/hack-04-hybrid-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 16
+ },
+ {
+  "sku": "BUL-RAC-HAC04C",
+  "slug": "hack-04-comfort",
+  "name": "HACK 04 COMFORT",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Hack 04 Comfort racket is made with the most advanced materials and cutting edge technology. This racket offers a perfect balance of power and control. Its shape provides a wide hitting area at the top, allowing you to hit precise and effective attacking shots. The Fibrix face and MultiEVA core gives it a comfortable feel when striking the ball. Vibradrive, Hesacore and Ease Vibes, make this racket perfect for anyone with injuries.",
+  "specs": {
+   "weight": "360-370 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/hack-04-comfort-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/hack-04-comfort-1.jpg",
+   "https://korta.co.za/images/products/hack-04-comfort-2.jpg",
+   "https://korta.co.za/images/products/hack-04-comfort-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 17
+ },
+ {
+  "sku": "BUL-RAC-NEU02",
+  "slug": "neuron-02",
+  "name": "NEURON 02",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Neuron 02 racket is perfect from every angle. Bullpadel have revolutionised the Neuron concept to create a racket with total, seamless control. The new Neuron 02 is a Teardrop shaped racket that offers the perfect balance between power and extreme control. The 3K Carbon Fibre face gives strength and durability, but with a more comfortable & softer strike on the ball. Loads of",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "MEDIUM",
+   "surface": "3D ROUGH",
+   "face": "X-TEND CARBON 3K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/neuron-02-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/neuron-02-1.jpg",
+   "https://korta.co.za/images/products/neuron-02-2.jpg",
+   "https://korta.co.za/images/products/neuron-02-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 19
+ },
+ {
+  "sku": "BUL-RAC-NEU02E",
+  "slug": "neuron-02-edge",
+  "name": "NEURON 02 EDGE",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Neuron 02 Edge is inspired and used by Fede Chingotto. A design pushed to the limit by the Bullpadel-Lab team, created to anticipate and respond to each point as quickly as his game. For those who demand perfection in every detail. Its innovative PrismLock frame stops the racket from twisting and keeps the racket firm even under maximum pressure, while the geometric head shape adds that extra bit of power that evolves control into winning precision. Every shot, exactly where",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "GEOMETRIC DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "X-TEND CARBON 3K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/neuron-02-edge-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/neuron-02-edge-1.jpg",
+   "https://korta.co.za/images/products/neuron-02-edge-2.jpg",
+   "https://korta.co.za/images/products/neuron-02-edge-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 20
+ },
+ {
+  "sku": "BUL-RAC-XPL",
+  "slug": "xplo",
+  "name": "XPLO",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Xplo is used by Martín Di Nenno and the Geometric shape allows you to feel an explosion of power with every shot, due to the larger surface for the sweetspot. A rough surface, MultiEVA core and X-Tend Carbon 12K face, all make this racket a force to be reckoned with. Excellent",
+  "specs": {
+   "weight": "360-370 GRAMS",
+   "shape": "GEOMETRIC DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "X-TEND CARBON 12K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/xplo-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/xplo-1.jpg",
+   "https://korta.co.za/images/products/xplo-2.jpg",
+   "https://korta.co.za/images/products/xplo-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 22
+ },
+ {
+  "sku": "BUL-RAC-XPLC",
+  "slug": "xplo-comfort",
+  "name": "XPLO COMFORT",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Xplo Comfort combines all the features of its twin Xplo, but with Fibrix on the face. This offers a more comfortable playing experience without sacrificing explosive power. Featuring the latest innovations from Bullpadel-Lab, this racket is designed for those who want to dominate the court with total authority, without needing to be an extremely powerful player.",
+  "specs": {
+   "weight": "360-370 GRAMS",
+   "shape": "GEOMETRIC DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/xplo-comfort-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/xplo-comfort-1.jpg",
+   "https://korta.co.za/images/products/xplo-comfort-2.jpg",
+   "https://korta.co.za/images/products/xplo-comfort-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 23
+ },
+ {
+  "sku": "BUL-RAC-ICO",
+  "slug": "icon",
+  "name": "ICON",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Icon racket is a tribute to greatness, a symbol of excellence and an ultimate tool for those who seek to dominate the court with the same spirit as Juan Martín Díaz, former World No 1 for 14 years. Created in collaboration with Bullpadel Lab engineers, the ICON combines innovation, design and performance in a perfect",
+  "specs": {
+   "weight": "370-375 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "X-TEND CARBON 12K",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/icon-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/icon-1.jpg",
+   "https://korta.co.za/images/products/icon-2.jpg",
+   "https://korta.co.za/images/products/icon-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 25
+ },
+ {
+  "sku": "BUL-RAC-PEA",
+  "slug": "pearl",
+  "name": "PEARL",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Pearl is used by none other than Bea Gonzalez, a fantastic ambassador for this racket. It is a lighter racket, suitable for both men and women. It offers good power due to the shape, but also great comfort, due to the Fibrix and Vibradrive, helping reduce any wrist, elbow or shoulder pain. The Pearl core, a structure based on the principle of triangulation, is not only visually striking but also significantly improves stability and durability.",
+  "specs": {
+   "weight": "355 - 365 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/pearl-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/pearl-1.jpg",
+   "https://korta.co.za/images/products/pearl-2.jpg",
+   "https://korta.co.za/images/products/pearl-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 26
+ },
+ {
+  "sku": "BUL-RAC-WON",
+  "slug": "wonder",
+  "name": "WONDER",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "This is a brand new racket to the Bullpadel range. Used by Claudia Fernández, this racket was designed by the Bullpadel Lab in consultation with Claudia. The racket incorporates the exclusive Hyper Core and a new side profile concept, creating a racket that offers great performance both in defense and aggressive play. The Wonder is designed in a Teardrop shape, with a rough surface for great spin and control.",
+  "specs": {
+   "weight": "350 - 360 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/wonder-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/wonder-1.jpg",
+   "https://korta.co.za/images/products/wonder-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 27
+ },
+ {
+  "sku": "BUL-RAC-ELIW",
+  "slug": "elite-w",
+  "name": "ELITE W",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "Elite, the racket of World No.1 Gemma Triay, is the perfect balance of elegance, control, and power. Designed for the player who wants it all: style, performance, and presence. With its chic design, Elite becomes a natural extension of your style, perfectly merging performance and fashion. On the court, its Teardrop shape lets you dominate every point with the perfect blend of power and control. The face is made of Fibrix, a blend of Fibreglass and Carbon Fibre, to give you the durability of Carbon Fibre and the soft comfortable feel of",
+  "specs": {
+   "weight": "350 - 360 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/elite-w-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/elite-w-1.jpg",
+   "https://korta.co.za/images/products/elite-w-2.jpg",
+   "https://korta.co.za/images/products/elite-w-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 28
+ },
+ {
+  "sku": "BUL-RAC-FLOL",
+  "slug": "flow-legend",
+  "name": "FLOW LEGEND",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Flow Legend is a tribute to Alejandra Salazar’s extraordinary career. The model that carried her through her greatest victories now comes in an exclusive black design with golden engravings, celebrating every point, tournament, and triumph. Experience the Flow Legend and feel the same confidence on court that Alejandra displayed in the most decisive and challenging moments of her career. Consistent with every shot and delivering an extra boost of power thanks to its Diamond shape, the Flow Legend represents years of technical expertise and innovation, bringing you top-tier performance and an unmatched playing experience.",
+  "specs": {
+   "weight": "350 - 360 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "FIBRIX",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/flow-legend-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/flow-legend-1.jpg",
+   "https://korta.co.za/images/products/flow-legend-2.jpg",
+   "https://korta.co.za/images/products/flow-legend-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 29
+ },
+ {
+  "sku": "BUL-RAC-IONP",
+  "slug": "ionic-power",
+  "name": "IONIC POWER",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Ionic Power is designed to meet the needs of top players and is used by the super attacking and powerful Javi Leal and Alex Arroyo. The standout XForce technology strengthens the racket for added power without losing control, while a new profile design reduces material, making the racket lighter and easier to handle. The Ionic Power model, with its Diamond shape and high balance, is highly manoeuvrable too. It features a Carbon Fibre and Fibreglass outer layer (Glaphite), a MultiEVA core, and a 100% Carbon Fibre frame, all enhanced by the XForce system.",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "GLAPHITE",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/ionic-power-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/ionic-power-1.jpg",
+   "https://korta.co.za/images/products/ionic-power-2.jpg",
+   "https://korta.co.za/images/products/ionic-power-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 30
+ },
+ {
+  "sku": "BUL-RAC-IONC",
+  "slug": "ionic-control",
+  "name": "IONIC CONTROL",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Bullpadel Ionic Control is a versatile racket for players of all levels, designed for superior control with its Round shape and low balance. The XForce system provides exceptional structural reinforcement, while the Glaphite face, combining Fibreglass and Carbon Fibre ensures strength, precision and a comforatble strike on the ball. Its MultiEVA core balances power and touch, and the 100% Carbon Fibre frame offers durability and lightness. The racket’s rough surface adds extra spin to enhance your gameplay.",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "ROUND",
+   "balance": "LOW",
+   "surface": "3D ROUGH",
+   "face": "GLAPHITE",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/ionic-control-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/ionic-control-1.jpg",
+   "https://korta.co.za/images/products/ionic-control-2.jpg",
+   "https://korta.co.za/images/products/ionic-control-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 31
+ },
+ {
+  "sku": "BUL-RAC-IONL",
+  "slug": "ionic-light",
+  "name": "IONIC LIGHT",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Ionic Light stands out for its manageability and effectiveness. It has a Teardrop shape with a medium balance and the new XForce System. It is designed for players looking for a light and manageable racket and is used by the talented Claudia Its outer core is finished with Glaphite, a special braid developed by Bullpadel that mixes Fibrelgass with Carbon Fibre to achieve a comfortable touch and great durability. The inner core is composed of MultiEVA, and its frame is 100% Carbon Fibre. It incorporates the rough 3D Grain surface which achieves great spin.",
+  "specs": {
+   "weight": "350-360 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "MEDIUM",
+   "surface": "3D ROUGH",
+   "face": "GLAPHITE",
+   "frame": "CARBON FIBRE",
+   "core": "MULTI EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/ionic-light-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/ionic-light-1.jpg",
+   "https://korta.co.za/images/products/ionic-light-2.jpg",
+   "https://korta.co.za/images/products/ionic-light-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 32
+ },
+ {
+  "sku": "BUL-RAC-VERA",
+  "slug": "vertex-advance",
+  "name": "VERTEX ADVANCE",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Vertex 03 Advance is a Diamond-shaped racket with maximum power and high performance without loss of control. It incorporates the innovative Air React Channel system, which consists of an aerodynamic frame, creating a firmer, more agile, and lighter structure. Its outer core is composed of Glaphite, a blend of Carbon Fibre and Fibreglass, and its inner core is composed of Soft EVA which provide great comfort and good power. The CarbonTube frame is made of 100% Carbon Fibre. It also features the Vertex core and TopSpin rough surface.",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "3D ROUGH",
+   "face": "GLAPHITE",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-advance-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-advance-1.jpg",
+   "https://korta.co.za/images/products/vertex-advance-2.jpg",
+   "https://korta.co.za/images/products/vertex-advance-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 33
+ },
+ {
+  "sku": "BUL-RAC-HACA",
+  "slug": "hack-advance",
+  "name": "HACK ADVANCE",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Hack 02 Advance is a Round-shaped racket offering maximum control and high performance. Its outer core is composed of Glaphite, a blend of Carbon Fibre and Fibreglass, and its inner core is composed of a Soft EVA, with elasticity and density characteristics that provide great comfort. The frame is made of 100% Carbon Fibre CarbonTube. It features the new Hack Core and Nerve channels on the side of the racket frame to give the racket more rigidity and strength. It has a 3D rough surface.",
+  "specs": {
+   "weight": "365-375 GRAMS",
+   "shape": "ROUND",
+   "balance": "LOW",
+   "surface": "3D ROUGH",
+   "face": "GLAPHITE",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/hack-advance-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/hack-advance-1.jpg",
+   "https://korta.co.za/images/products/hack-advance-2.jpg",
+   "https://korta.co.za/images/products/hack-advance-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 34
+ },
+ {
+  "sku": "BUL-RAC-INDP",
+  "slug": "indiga-pwr",
+  "name": "INDIGA PWR",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Indiga Power racket is a comfortable and highly manageable Padel racket, with a Diamond shape for a great mix of power and control. Its outer core is made of Polyglass Fibreglass, and its inner core is made of soft EVA rubber. The frame has been made of Carbon Fibre and it comes with the Grip Zone technology, which is a constant reminder as to where to place your hands when holding the racket.",
+  "specs": {
+   "weight": "360-370 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "SMOOTH",
+   "face": "POLYGLASS",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA RUBBER"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-pwr-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-pwr-1.jpg",
+   "https://korta.co.za/images/products/indiga-pwr-2.jpg",
+   "https://korta.co.za/images/products/indiga-pwr-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 35
+ },
+ {
+  "sku": "BUL-RAC-INDC",
+  "slug": "indiga-ctr",
+  "name": "INDIGA CTR",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Iindiga Control Padel racket is light, comfortable, and easy to handle racket, with a Round shape for a large sweetspot and maximum control. It features a Polyglass Fibreglass outer core, soft EVA rubber inner core, and a Carbon Fibre frame. It also includes the Grip Zone technology, which is a constant reminder as to where to place your hands when holding the racket.",
+  "specs": {
+   "weight": "360-370 GRAMS",
+   "shape": "ROUND",
+   "balance": "LOW",
+   "surface": "SMOOTH",
+   "face": "POLYGLASS",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA RUBBER"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-ctr-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-ctr-1.jpg",
+   "https://korta.co.za/images/products/indiga-ctr-2.jpg",
+   "https://korta.co.za/images/products/indiga-ctr-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 36
+ },
+ {
+  "sku": "BUL-RAC-INDW",
+  "slug": "indiga-w",
+  "name": "INDIGA W",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Indiga Womens racket is ultralight, comfortable, and easy to use racket, offering maximum control with its Round",
+  "specs": {
+   "weight": "350-360 GRAMS",
+   "shape": "ROUND",
+   "balance": "LOW",
+   "surface": "SMOOTH",
+   "face": "POLYGLASS",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA RUBBER"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-w-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-w-1.jpg",
+   "https://korta.co.za/images/products/indiga-w-2.jpg",
+   "https://korta.co.za/images/products/indiga-w-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 37
+ },
+ {
+  "sku": "BUL-RAC-VERJ",
+  "slug": "vertex-jnr",
+  "name": "VERTEX JNR",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The new Vertex Junior Racket is the official Juan Tello racket adapted for junior players, with a lighter weight and smaller It is designed for junior players of a high level, aged between 8 years and 16 years old. It is a Diamond shaped racket, with the",
+  "specs": {
+   "weight": "335 - 345 GRAMS",
+   "shape": "DIAMOND",
+   "balance": "HIGH",
+   "surface": "SMOOTH",
+   "face": "POLYGLASS",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA RUBBER"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-jnr-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-jnr-1.jpg",
+   "https://korta.co.za/images/products/vertex-jnr-2.jpg",
+   "https://korta.co.za/images/products/vertex-jnr-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 38
+ },
+ {
+  "sku": "BUL-RAC-INDB",
+  "slug": "indiga-boy",
+  "name": "INDIGA BOY",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Indiga Boys racket is made for children between the ages of 3 to 10 years old. The racket is only 280 grams, with a small handle, making it easy for kids to hold and swing. The soft EVA rubber makes it easy and comfortable racket to play with.",
+  "specs": {
+   "weight": "280 - 305 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "MEDIUM",
+   "surface": "SMOOTH",
+   "face": "POLYGLASS",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA RUBBER"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-boy-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-boy-1.jpg",
+   "https://korta.co.za/images/products/indiga-boy-2.jpg",
+   "https://korta.co.za/images/products/indiga-boy-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 39
+ },
+ {
+  "sku": "BUL-RAC-INDG",
+  "slug": "indiga-girl",
+  "name": "INDIGA GIRL",
+  "brand": "Bullpadel",
+  "category": "Rackets",
+  "description": "The Indiga Girls racket is made for children between the ages of 3 to 10 years old. The racket is only 280 grams, with a small handle, making it easy for kids to hold and swing. The soft EVA rubber makes it easy and comfortable racket to play with.",
+  "specs": {
+   "weight": "280 - 305 GRAMS",
+   "shape": "TEARDROP",
+   "balance": "MEDIUM",
+   "surface": "SMOOTH",
+   "face": "POLYGLASS",
+   "frame": "CARBON FIBRE",
+   "core": "SOFT EVA RUBBER"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-girl-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-girl-1.jpg",
+   "https://korta.co.za/images/products/indiga-girl-2.jpg",
+   "https://korta.co.za/images/products/indiga-girl-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 40
+ },
+ {
+  "sku": "BUL-BAG-ICOB",
+  "slug": "icon-bag",
+  "name": "ICON BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Racket bag matched to Juan Martín Díaz's Icon racket. Spacious main compartment, two thermo compartments for up to four rackets, and a ventilated section for clothes and shoes. Exterior side pocket for accessories. Synthetic leather, personalised with Juan Martín Díaz's signature.",
+  "specs": {
+   "measures": "60X29X40 CM",
+   "composition": "Leatherette"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/icon-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/icon-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 42
+ },
+ {
+  "sku": "BUL-BAG-VERB",
+  "slug": "vertex-bag",
+  "name": "VERTEX BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Spacious main compartment, two thermal compartments with capacity for up to four rackets, and a separate ventilated section for used clothing or footwear. Exterior side pocket for personal items. Ergonomic back protector with foam padding for ventilation and comfort.",
+  "specs": {
+   "measures": "60X30X40 CM",
+   "composition": "Nylon Dobby / Neoprene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 42
+ },
+ {
+  "sku": "BUL-BAG-TOUB",
+  "slug": "tour-bag",
+  "name": "TOUR BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "A light, medium-capacity racket bag with a main compartment to store everything you need. Padded compartment with space for two rackets, plus a small outer side pocket.",
+  "specs": {
+   "measures": "60x30x40 CM",
+   "composition": "Nylon Dobby / Neoprene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/tour-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/tour-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 42
+ },
+ {
+  "sku": "BUL-BAG-ELIB",
+  "slug": "elite-bag",
+  "name": "ELITE BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "For those wanting a sophisticated design without sacrificing capacity. Spacious main compartment, two thermal compartments, a separate ventilated compartment for clothing and shoes, practical exterior side pocket, and a top handle.",
+  "specs": {
+   "measures": "60X30X40 CM",
+   "composition": "Nylon Dobby / Neoprene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/elite-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/elite-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 42
+ },
+ {
+  "sku": "BUL-BAG-NEUB",
+  "slug": "neuron-bag",
+  "name": "NEURON BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Medium-capacity, lightweight bag. Large main compartment, two thermal compartments and a separate ventilated compartment for clothing and footwear. Practical side pocket with exterior gusset. Personalised with Fede Chingotto's signature.",
+  "specs": {
+   "measures": "58X30X35 CM",
+   "composition": "Polyester / Rubberised"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/neuron-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/neuron-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 43
+ },
+ {
+  "sku": "BUL-BAG-HACB",
+  "slug": "hack-bag",
+  "name": "HACK BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Combines innovation, capacity and style. Large main compartment and two thermal compartments for up to four rackets. Separate ventilated area for footwear or used clothing. Semi-rigid side panels for rigidity and racket protection. Foam-padded ergonomic back.",
+  "specs": {
+   "measures": "62X30X40 CM",
+   "composition": "Polyester / Leatherette"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/hack-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/hack-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 43
+ },
+ {
+  "sku": "BUL-BAG-VERWB",
+  "slug": "vertex-w-bag",
+  "name": "VERTEX W BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Spacious main compartment and two thermal compartments for up to four rackets, protected against temperature changes. Separate ventilated section for used clothing or footwear. Exterior side pocket and ergonomic foam-padded back protector.",
+  "specs": {
+   "measures": "60X28X50 CM",
+   "composition": "Polyester"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-w-bag.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-w-bag.jpg"
+  ],
+  "active": false,
+  "catalogPage": 43
+ },
+ {
+  "sku": "BUL-BAG-ADVB",
+  "slug": "advance-bag",
+  "name": "ADVANCE BAG",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Made of nylon and neoprene for durability and lightness. Large main compartment, two thermal compartments protecting up to four rackets, and a dedicated ventilated section for clothing and shoes. Exterior side pocket and top handle with ergonomic padded straps for backpack carry.",
+  "specs": {
+   "measures": "60x30x40 CM",
+   "composition": "Nylon Dobby / Neoprene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page44-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page44-1.jpg",
+   "https://korta.co.za/images/products/page44-2.jpg",
+   "https://korta.co.za/images/products/page44-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 44
+ },
+ {
+  "sku": "BUL-BAG-RACC",
+  "slug": "racket-cover",
+  "name": "RACKET COVER",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Premium racket cover designed for durability and style. Fits any padel racket and includes a zippered side pocket for cards and keys. Keeps your racket in top condition on and off the court.",
+  "specs": {
+   "composition": "Neoprene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page44-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page44-1.jpg",
+   "https://korta.co.za/images/products/page44-2.jpg",
+   "https://korta.co.za/images/products/page44-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 44
+ },
+ {
+  "sku": "BUL-BAG-VERB2",
+  "slug": "vertex-backpack",
+  "name": "VERTEX BACKPACK",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Versatile, comfortable and durable technical backpack. Spacious main compartment, reinforced thermal compartment for two rackets, and ventilated space for shoes or clothing. Dedicated padded laptop pocket, foam backrest, adjustable chest strap and functional side pocket.",
+  "specs": {
+   "measures": "60X29X40 CM",
+   "composition": "Polyester / Rubberised"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page45-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page45-1.jpg",
+   "https://korta.co.za/images/products/page45-2.jpg",
+   "https://korta.co.za/images/products/page45-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 45
+ },
+ {
+  "sku": "BUL-BAG-XPLB",
+  "slug": "xplo-backpack",
+  "name": "XPLO BACKPACK",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Designed for Martín Di Nenno's XPLO racket. Reinforced thermo compartment for a racket or laptop, large main compartment, and front pocket for accessories. Two elastic side pockets and side straps to adjust volume. Personalised with Martín Di Nenno's signature.",
+  "specs": {
+   "measures": "60X29X40 CM",
+   "composition": "Polyester / Rubberised"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page45-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page45-1.jpg",
+   "https://korta.co.za/images/products/page45-2.jpg",
+   "https://korta.co.za/images/products/page45-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 45
+ },
+ {
+  "sku": "BUL-BAG-TECB",
+  "slug": "technical-backpack",
+  "name": "TECHNICAL BACKPACK",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "PRO technical backpack with a padded compartment for two rackets, laptops or tablets, plus sections for clothes, shoes and a gusseted front pocket. Foam back protector, chest strap for a secure fit, and a side pocket for a ball canister.",
+  "specs": {
+   "measures": "33x48x23 CM",
+   "composition": "Polyester / Rubberised"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page45-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page45-1.jpg",
+   "https://korta.co.za/images/products/page45-2.jpg",
+   "https://korta.co.za/images/products/page45-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 45
+ },
+ {
+  "sku": "BUL-BAG-HACB2",
+  "slug": "hack-backpack",
+  "name": "HACK BACKPACK",
+  "brand": "Bullpadel",
+  "category": "Bags",
+  "description": "Paquito Navarro's backpack. Spacious main compartment, reinforced thermal compartment for two rackets, separate ventilated section for clothing or shoes, and a padded pocket for a laptop or tablet. Ergonomic foam back panel and adjustable chest strap.",
+  "specs": {
+   "measures": "60X29X40 CM",
+   "composition": "Leatherette"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page45-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page45-1.jpg",
+   "https://korta.co.za/images/products/page45-2.jpg",
+   "https://korta.co.za/images/products/page45-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 45
+ },
+ {
+  "sku": "BUL-BAL-NEXP",
+  "slug": "next-pro",
+  "name": "NEXT PRO",
+  "brand": "Bullpadel",
+  "category": "Balls",
+  "description": "Padel ball for use on all types of surfaces and altitudes. Medium-fast paced ball, due to the natural felt used, giving more grip and control on the ball.",
+  "specs": {
+   "measures": "Sold in cases of 24 cans",
+   "speed": "Medium/Fast"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page46-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page46-1.jpg",
+   "https://korta.co.za/images/products/page46-2.jpg",
+   "https://korta.co.za/images/products/page46-3.jpg",
+   "https://korta.co.za/images/products/page46-4.jpg",
+   "https://korta.co.za/images/products/page46-5.jpg"
+  ],
+  "active": false,
+  "catalogPage": 46
+ },
+ {
+  "sku": "BUL-BAL-NEX",
+  "slug": "next",
+  "name": "NEXT",
+  "brand": "Bullpadel",
+  "category": "Balls",
+  "description": "Padel ball used for all types of surfaces and altitudes. Long-lasting durability and great speed, due to the mix between synthetic and natural felt.",
+  "specs": {
+   "measures": "Sold in cases of 24 cans",
+   "speed": "Medium/Fast"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page46-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page46-1.jpg",
+   "https://korta.co.za/images/products/page46-2.jpg",
+   "https://korta.co.za/images/products/page46-3.jpg",
+   "https://korta.co.za/images/products/page46-4.jpg",
+   "https://korta.co.za/images/products/page46-5.jpg"
+  ],
+  "active": false,
+  "catalogPage": 46
+ },
+ {
+  "sku": "BUL-BAL-PREP",
+  "slug": "premium-pro",
+  "name": "PREMIUM PRO",
+  "brand": "Bullpadel",
+  "category": "Balls",
+  "description": "High quality synthetic felt that guarantees a great hitting feeling and excellent speed. High-density rubber core prevents pressure loss, guaranteeing maximum durability.",
+  "specs": {
+   "measures": "Sold in cases of 24 cans",
+   "speed": "Fast"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page46-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page46-1.jpg",
+   "https://korta.co.za/images/products/page46-2.jpg",
+   "https://korta.co.za/images/products/page46-3.jpg",
+   "https://korta.co.za/images/products/page46-4.jpg",
+   "https://korta.co.za/images/products/page46-5.jpg"
+  ],
+  "active": false,
+  "catalogPage": 46
+ },
+ {
+  "sku": "BUL-ACC-BALB",
+  "slug": "ball-basket",
+  "name": "BALL BASKET",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Canvas material with zip closure. Detachable. Space for 120 balls. Features wheels and brakes for easy movement.",
+  "specs": {
+   "measures": "1 piece"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/ball-basket.jpg",
+  "images": [
+   "https://korta.co.za/images/products/ball-basket.jpg"
+  ],
+  "active": false,
+  "catalogPage": 48
+ },
+ {
+  "sku": "BUL-ACC-PASB",
+  "slug": "pascal-box",
+  "name": "PASCAL BOX",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Ball pressuriser for 3 balls.",
+  "specs": {
+   "measures": "1 piece"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/pascal-box.jpg",
+  "images": [
+   "https://korta.co.za/images/products/pascal-box.jpg"
+  ],
+  "active": false,
+  "catalogPage": 48
+ },
+ {
+  "sku": "BUL-ACC-BALT",
+  "slug": "ball-tube",
+  "name": "BALL TUBE",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Polycarbonate outer structure of great durability and resistance. Space for 15 balls. Includes hook to hang on the metal fence of the court.",
+  "specs": {
+   "measures": "1 piece"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/ball-tube.jpg",
+  "images": [
+   "https://korta.co.za/images/products/ball-tube.jpg"
+  ],
+  "active": false,
+  "catalogPage": 48
+ },
+ {
+  "sku": "BUL-ACC-HESTG",
+  "slug": "hesacore-tour-grip",
+  "name": "HESACORE TOUR GRIP",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "HESACORE's honeycomb design creates a larger contact surface between hand and grip, so the player holds the racket with less effort. Relaxes the muscles of hand, wrist and forearm, allowing a more fluid swing with less vibration transmission and fewer injuries. Easy to install and replaceable.",
+  "specs": {
+   "measures": "1 piece",
+   "composition": "White"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page49-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page49-1.jpg",
+   "https://korta.co.za/images/products/page49-2.jpg",
+   "https://korta.co.za/images/products/page49-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 49
+ },
+ {
+  "sku": "BUL-ACC-HESGG",
+  "slug": "hesacore-gel-grip",
+  "name": "HESACORE GEL GRIP",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Gelatinous material that instantly adapts to any hand and acts as a pad on every shot. Ideal for players wanting to prevent arm injuries. Generates between 8% and 14% more grip depending on the overgrip used.",
+  "specs": {
+   "measures": "1 piece",
+   "composition": "Blue"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page49-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page49-1.jpg",
+   "https://korta.co.za/images/products/page49-2.jpg",
+   "https://korta.co.za/images/products/page49-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 49
+ },
+ {
+  "sku": "BUL-ACC-DAMEV",
+  "slug": "dampeners-ease-vibes",
+  "name": "DAMPENERS - EASE VIBES",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Compact yet highly effective dampeners, reducing vibrations by up to 60% at impact. Position at the top for added head weight and power, or at the bottom for more control.",
+  "specs": {
+   "composition": "Blue, Yellow, Grey, Orange, Red"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page50-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page50-1.jpg"
+  ],
+  "active": false,
+  "catalogPage": 50
+ },
+ {
+  "sku": "BUL-ACC-CUSWP",
+  "slug": "custom-weights-protector",
+  "name": "CUSTOM WEIGHTS PROTECTOR",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Pack of 3 adhesive aluminium plates of 3 grams each, used to customise the weight and balance of the racket. Compatible with the Pro line of Bullpadel rackets, except women's models.",
+  "specs": {
+   "measures": "3 plates"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page50-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page50-1.jpg"
+  ],
+  "active": false,
+  "catalogPage": 50
+ },
+ {
+  "sku": "BUL-ACC-CUSWG",
+  "slug": "custom-weights-grip",
+  "name": "CUSTOM WEIGHTS GRIP",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Two spare caps of 5 and 10 grams. Use for more control, or combine with the aluminium Custom Weight plates to find your sweet spot. Includes screwdriver. Compatible with the Pro line, except women's models.",
+  "specs": {
+   "measures": "2 caps"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page50-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page50-1.jpg"
+  ],
+  "active": false,
+  "catalogPage": 50
+ },
+ {
+  "sku": "BUL-ACC-GELPG",
+  "slug": "gel-padel-grip",
+  "name": "GEL PADEL GRIP",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "New gel for padel ensures a firm, long-lasting grip with a single application. Fast-absorbing formula keeps hands dry and secure throughout the game. Dermatologically tested.",
+  "specs": {
+   "composition": "Dry Grip / Crystal Grip / Power Grip"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page50-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page50-1.jpg"
+  ],
+  "active": false,
+  "catalogPage": 50
+ },
+ {
+  "sku": "BUL-ACC-FRAPP",
+  "slug": "frame-protector-pro",
+  "name": "FRAME PROTECTOR PRO",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Pack of two rubberised frame protectors. Easy to apply.",
+  "specs": {
+   "measures": "2 pack",
+   "composition": "Black"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page51-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page51-1.jpg",
+   "https://korta.co.za/images/products/page51-2.jpg",
+   "https://korta.co.za/images/products/page51-3.jpg",
+   "https://korta.co.za/images/products/page51-4.jpg"
+  ],
+  "active": false,
+  "catalogPage": 51
+ },
+ {
+  "sku": "BUL-ACC-COMAO",
+  "slug": "comfort-and-absorbent-overgrip",
+  "name": "COMFORT & ABSORBENT OVERGRIP",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Optimal comfort in all aspects of play and training. Maximum grip and maximum durability. Firm and secure hold.",
+  "specs": {
+   "measures": "Box of 50",
+   "composition": "Black, White & Assorted"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page51-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page51-1.jpg",
+   "https://korta.co.za/images/products/page51-2.jpg",
+   "https://korta.co.za/images/products/page51-3.jpg",
+   "https://korta.co.za/images/products/page51-4.jpg"
+  ],
+  "active": false,
+  "catalogPage": 51
+ },
+ {
+  "sku": "BUL-ACC-RACFP",
+  "slug": "racket-frame-protectors",
+  "name": "RACKET FRAME PROTECTORS",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Racket frame protector with optimal protection. Protects the racket without altering its balance and performance. Adapts to all types of frames regardless of size or shape.",
+  "specs": {
+   "measures": "Box of 50",
+   "composition": "Black & Transparent"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page51-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page51-1.jpg",
+   "https://korta.co.za/images/products/page51-2.jpg",
+   "https://korta.co.za/images/products/page51-3.jpg",
+   "https://korta.co.za/images/products/page51-4.jpg"
+  ],
+  "active": false,
+  "catalogPage": 51
+ },
+ {
+  "sku": "BUL-ACC-COMPO",
+  "slug": "comfort-perforated-overgrips",
+  "name": "COMFORT PERFORATED OVERGRIPS",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Optimal comfort in all aspects of play and training. Micro-perforations increase the ability to absorb sweat, achieving a dry touch.",
+  "specs": {
+   "measures": "3 pieces",
+   "composition": "Green, Pink & Black"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page52-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page52-1.jpg",
+   "https://korta.co.za/images/products/page52-2.jpg",
+   "https://korta.co.za/images/products/page52-3.jpg",
+   "https://korta.co.za/images/products/page52-4.jpg",
+   "https://korta.co.za/images/products/page52-5.jpg",
+   "https://korta.co.za/images/products/page52-6.jpg"
+  ],
+  "active": false,
+  "catalogPage": 52
+ },
+ {
+  "sku": "BUL-ACC-COMO",
+  "slug": "comfort-overgrips",
+  "name": "COMFORT OVERGRIPS",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Optimal comfort in all aspects of play and training. Maximum grip. Firm and secure hold.",
+  "specs": {
+   "measures": "3 pieces",
+   "composition": "White & Yellow"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page52-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page52-1.jpg",
+   "https://korta.co.za/images/products/page52-2.jpg",
+   "https://korta.co.za/images/products/page52-3.jpg",
+   "https://korta.co.za/images/products/page52-4.jpg",
+   "https://korta.co.za/images/products/page52-5.jpg",
+   "https://korta.co.za/images/products/page52-6.jpg"
+  ],
+  "active": false,
+  "catalogPage": 52
+ },
+ {
+  "sku": "BUL-ACC-WRI",
+  "slug": "wristbands",
+  "name": "WRISTBANDS",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Allow maximum sweat absorption and optimal comfort during training and padel matches.",
+  "specs": {
+   "measures": "2 x wristbands",
+   "composition": "Black & White"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page52-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page52-1.jpg",
+   "https://korta.co.za/images/products/page52-2.jpg",
+   "https://korta.co.za/images/products/page52-3.jpg",
+   "https://korta.co.za/images/products/page52-4.jpg",
+   "https://korta.co.za/images/products/page52-5.jpg",
+   "https://korta.co.za/images/products/page52-6.jpg"
+  ],
+  "active": false,
+  "catalogPage": 52
+ },
+ {
+  "sku": "BUL-ACC-CAP",
+  "slug": "cap",
+  "name": "CAP",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Cap designed with embroidered label on the front.",
+  "specs": {
+   "composition": "Black & White, Navy Blue & White — 100% polyester bi-elastic"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page53-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page53-1.jpg",
+   "https://korta.co.za/images/products/page53-2.jpg",
+   "https://korta.co.za/images/products/page53-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 53
+ },
+ {
+  "sku": "BUL-ACC-VIS",
+  "slug": "visor",
+  "name": "VISOR",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Visor made of bi-elastic polyester fabric with velcro adjustment and padded interior, with the logo on the front.",
+  "specs": {
+   "composition": "100% polyester bi-elastic"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/page53-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/page53-1.jpg",
+   "https://korta.co.za/images/products/page53-2.jpg",
+   "https://korta.co.za/images/products/page53-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 53
+ },
+ {
+  "sku": "BUL-ACC-SOCH",
+  "slug": "socks-high",
+  "name": "SOCKS - HIGH",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Pack of three basic high socks. Made of cotton and elastic polyamide.",
+  "specs": {
+   "measures": "3 pack",
+   "composition": "80% cotton, 15% polyamide, 3% elastane, 2% elastodiene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/socks-high.jpg",
+  "images": [
+   "https://korta.co.za/images/products/socks-high.jpg"
+  ],
+  "active": false,
+  "catalogPage": 54
+ },
+ {
+  "sku": "BUL-ACC-SOCM",
+  "slug": "socks-mid",
+  "name": "SOCKS - MID",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Pack of three mid-height socks in different colour combinations. Made of cotton and elastic polyamide.",
+  "specs": {
+   "measures": "3 pack",
+   "composition": "80% cotton, 15% polyamide, 3% elastane, 2% elastodiene"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/socks-mid.jpg",
+  "images": [
+   "https://korta.co.za/images/products/socks-mid.jpg"
+  ],
+  "active": false,
+  "catalogPage": 54
+ },
+ {
+  "sku": "BUL-ACC-PERT",
+  "slug": "performance-towel",
+  "name": "PERFORMANCE TOWEL",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Bullpadel performance towel.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/performance-towel.jpg",
+  "images": [
+   "https://korta.co.za/images/products/performance-towel.jpg"
+  ],
+  "active": false,
+  "catalogPage": 54
+ },
+ {
+  "sku": "BUL-ACC-GIMCS",
+  "slug": "gimadd-cellphone-support",
+  "name": "GIMADD CELLPHONE SUPPORT",
+  "brand": "Bullpadel",
+  "category": "Accessories",
+  "description": "Cell phone support designed for padel. Record, analyse and share your sessions. Made from 30% fibre-reinforced polyamide — strong, lightweight and easy to transport. Attaches to padel courts with a strong magnet, in landscape or portrait mode.",
+  "specs": {
+   "composition": "30% fibre-reinforced polyamide"
+  },
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/gimadd-cellphone-support.jpg",
+  "images": [
+   "https://korta.co.za/images/products/gimadd-cellphone-support.jpg"
+  ],
+  "active": false,
+  "catalogPage": 54
+ },
+ {
+  "sku": "BUL-SHO-HACV",
+  "slug": "hack-vibram",
+  "name": "HACK VIBRAM",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "Shoe used by Paquito Navarro. It has a highly durable VIBRAM sole and with its hybrid soul it guarantees the perfect balance between grip and movement. With its injected rubber protection on the toe, this shoe is ideal for players who would use it intensively. Stand-out features are the innovative technical mesh with a sock-type fit, providing great breathability and lightness, as well as the rear stabiliser in the It has an ORTHOLITE insole. Ideal for players looking for greater stability and comfort.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/hack-vibram-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/hack-vibram-1.jpg",
+   "https://korta.co.za/images/products/hack-vibram-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 56
+ },
+ {
+  "sku": "BUL-SHO-VERV",
+  "slug": "vertex-vibram",
+  "name": "VERTEX VIBRAM",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "Juan Tello’s shoe. Its sole has a hybrid soul, with guaranteed abrasion and cushioning thanks to its VIBRAM sole. The sole is completed with the CATAPULT system, an inner part of the midsole with a double function as a stabiliser and momentum dynamizer. It is recommended for intensive use thanks to its seamless injected rubber toe cap that protects the entire side. It has a construction and padding that provides extra protection in the heel. It will have an ORTHOLITE insole.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/vertex-vibram-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/vertex-vibram-1.jpg",
+   "https://korta.co.za/images/products/vertex-vibram-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 57
+ },
+ {
+  "sku": "BUL-SHO-XPLV",
+  "slug": "xplo-vibram",
+  "name": "XPLO VIBRAM",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "Engineered for competitive padel players seeking agility, grip, and durability. Developed in collaboration with Vibram, these shoes feature a hybrid outsole with a double-height herringbone pattern, providing exceptional traction and smooth gliding on The lightweight ensures enhanced speed and maneuverability, while the reinforced toe cap and side panels offer added protection. Breathable mesh uppers keep your feet cool during intense matches, and the ergonomic design delivers a snug, comfortable fit. Ideal for dynamic players aiming to elevate their performance.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/xplo-vibram-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/xplo-vibram-1.jpg",
+   "https://korta.co.za/images/products/xplo-vibram-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 58
+ },
+ {
+  "sku": "BUL-SHO-NEU",
+  "slug": "neuron",
+  "name": "NEURON",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "Engineered for competitive padel players seeking agility, grip, and durability. Developed in collaboration with Vibram, these shoes feature a hybrid outsole with a double-height herringbone pattern, providing exceptional traction and smooth gliding on The lightweight ensures enhanced speed and maneuverability, while the reinforced toe cap and side panels offer added protection. Breathable mesh uppers keep your feet cool during intense matches, and the ergonomic design delivers a snug, comfortable fit. Ideal for dynamic players aiming to elevate their performance.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/neuron-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/neuron-1.jpg",
+   "https://korta.co.za/images/products/neuron-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 59
+ },
+ {
+  "sku": "BUL-SHO-IND",
+  "slug": "indiga",
+  "name": "INDIGA",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "The shoe is suitable for intermediate or beginner players who are looking for flexible footwear and the grip provided by a pure herringbone sole. The mesh-type fabric provides optimal breathability. The mesh is made with seamless THERMO FIT technology, which provides optimal breathability and greater lightness. It has a rubber reinforcement on the toe and on the inside to protect from possible damage, ideal for players who drag their feet when playing. It has a thermo-formed EVA insole that favours cushioning and comfort.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-1.jpg",
+   "https://korta.co.za/images/products/indiga-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 60
+ },
+ {
+  "sku": "BUL-SHO-PEAV",
+  "slug": "pearl-vibram",
+  "name": "PEARL VIBRAM",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "Bea González’s shoe. The new sole developed in collaboration with VIBRAM will favour faster movements, light but equally Its combination of Jacquard and mesh materials assembled with seamless heat-sealing guarantees the necessary breathability for the most demanding game. It has protection injected into the toe that will protect from friction with the court. In addition, stability is guaranteed thanks to the heel support in the upper and anti-torsion in the middle of the sole.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/pearl-vibram-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/pearl-vibram-1.jpg",
+   "https://korta.co.za/images/products/pearl-vibram-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 61
+ },
+ {
+  "sku": "BUL-SHO-WON",
+  "slug": "wonder",
+  "name": "WONDER",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "The Bullpadel Wonder Padel shoes are designed to offer female Padel players, footwear that combines lightness, comfort, and exceptional support. Intended for those seeking superior performance, these shoes stand out for their innovative lacing system and structure that fits the foot like a glove, perfect for fast and dynamic play. These shoes allow agile and secure movements on court. The stability and personalised fit make them an essential choice for those who demand quality and advanced technology in their sports equipment.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/wonder-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/wonder-1.jpg",
+   "https://korta.co.za/images/products/wonder-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 62
+ },
+ {
+  "sku": "BUL-SHO-INDW",
+  "slug": "indiga-w",
+  "name": "INDIGA W",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "The shoe is suitable for intermediate or beginner players looking for flexible and light footwear. The mesh-type fabric provides optimal breathability. It has a rubber sole with traditional, herringbone design that adapts to all types of courts, in particular sandy ones. Especially recommended for those players who prefer to have a greater grip.",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/indiga-w-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/indiga-w-1.jpg",
+   "https://korta.co.za/images/products/indiga-w-2.jpg"
+  ],
+  "active": false,
+  "catalogPage": 63
+ },
+ {
+  "sku": "BUL-SHO-MOVP",
+  "slug": "move-pro",
+  "name": "MOVE PRO",
+  "brand": "Bullpadel",
+  "category": "Shoes",
+  "description": "These shoes are versatile for both training and also off court use. They feature a phylon midsole that provides stability and cushioning, ensuring great comfort. The “technical mesh” upper promotes ventilation and provides greater support where you",
+  "specs": {},
+  "price": 0,
+  "cost": 0,
+  "stock": null,
+  "image": "https://korta.co.za/images/products/move-pro-1.jpg",
+  "images": [
+   "https://korta.co.za/images/products/move-pro-1.jpg",
+   "https://korta.co.za/images/products/move-pro-2.jpg",
+   "https://korta.co.za/images/products/move-pro-3.jpg"
+  ],
+  "active": false,
+  "catalogPage": 64
+ }
+]
