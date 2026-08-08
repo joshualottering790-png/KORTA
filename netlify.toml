@@ -5,7 +5,7 @@
 [functions]
   node_bundler = "esbuild"
 
-# Friendlier URLs for the two endpoints
+# Friendlier URLs for the endpoints
 [[redirects]]
   from = "/api/create-checkout"
   to = "/.netlify/functions/create-checkout"
@@ -14,6 +14,11 @@
 [[redirects]]
   from = "/api/yoco-webhook"
   to = "/.netlify/functions/yoco-webhook"
+  status = 200
+
+[[redirects]]
+  from = "/api/get-products"
+  to = "/.netlify/functions/get-products"
   status = 200
 
 # Basic security headers
