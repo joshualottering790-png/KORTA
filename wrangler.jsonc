@@ -1,9 +1,11 @@
 {
   "name": "korta",
+  "main": "worker.js",
   "compatibility_date": "2026-06-01",
   "compatibility_flags": ["nodejs_compat"],
   "assets": {
-    "directory": "."
+    "directory": "./public",
+    "binding": "ASSETS"
   },
   "observability": { "enabled": true }
 }
