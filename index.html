@@ -2346,7 +2346,7 @@ function addToCart(name){
   }
   const found = CART.find(i=>i.name === p.name);
   if(found) found.qty += 1;
-  else CART.push({name:p.name, price:p.price, qty:1, isRacket:p.isRacket, art:p.art, cat:p.cat});
+  else CART.push({name:p.name, sku:p.sku || '', price:p.price, qty:1, isRacket:p.isRacket, art:p.art, cat:p.cat});
   updateCartBadge();
   renderCart();
   showToast(`${p.name} added · ${cartQty()} item${cartQty()>1?'s':''}`);
@@ -2516,7 +2516,7 @@ if(payNow) payNow.addEventListener('click', async ()=>{
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({
-        cart: CART.map(i=>({name:i.name, qty:i.qty})),
+        cart: CART.map(i=>({name:i.name, sku:i.sku || '', qty:i.qty})),
         ...details
       })
     });
@@ -2751,13 +2751,87 @@ document.addEventListener('keydown', (e)=>{
 /* ============================================================
    SEARCH — everything in the catalogue
    ============================================================ */
-const CATALOGUE = [
+/* Products bundled with the page. Used until the live catalogue loads, and
+   as a fallback if the database is unreachable — the shop stays browsable
+   rather than appearing empty. */
+const FALLBACK_CATALOGUE = [
   ...PRODUCTS.map(p=>({...p, group:'Rackets'})),
   ...BEST.map(p=>({...p, group:p.cat})),
   ...MORE.map(p=>({...p, group:p.cat})),
   ...RACKET_POOL.filter(r=>!PRODUCTS.some(p=>p.name===r.name))
       .map(r=>({...r, cat:'Rackets', group:'Rackets', level:Array.isArray(r.level)?r.level.join('/'):r.level})),
 ];
+
+let CATALOGUE = [...FALLBACK_CATALOGUE];
+
+/* ============================================================
+   LIVE CATALOGUE — loaded from MongoDB
+   ============================================================ */
+function fromDb(p){
+  const s = p.specs || {};
+  return {
+    sku: p.sku,
+    name: p.name,
+    cat: p.category,
+    group: p.category,
+    price: 'R ' + Number(p.price).toLocaleString('en-ZA'),
+    priceValue: Number(p.price),
+    desc: p.description || '',
+    weight:  s.weight  || '—',
+    balance: s.balance || s.measures || '—',
+    level:   s.shape   || s.composition || 'All Levels',
+    style:   s.surface || s.speed || s.core || '—',
+    rating: 5,
+    stock: p.stock,
+    img1: p.image || '',
+    img2: (p.images && p.images[1]) || p.image || '',
+    images: p.images || [],
+    isRacket: p.category === 'Rackets' && !p.image,
+    art: !p.image ? ({Balls:'ball',Bags:'bag',Apparel:'tee',Shoes:'shoe',Accessories:'grip'}[p.category]) : null,
+  };
+}
+
+async function loadCatalogue(){
+  try{
+    const res = await fetch('/api/get-products');
+    if(!res.ok) throw new Error('bad response');
+    const data = await res.json();
+    if(!data.products || !data.products.length) return;   // keep the fallback
+
+    CATALOGUE = data.products.map(fromDb);
+
+    // stock levels come from the database now
+    Object.keys(STOCK).forEach(k => delete STOCK[k]);
+    CATALOGUE.forEach(p => { if(typeof p.stock === 'number') STOCK[p.name] = p.stock; });
+
+    refreshAllGrids();
+    console.log('Live catalogue loaded:', CATALOGUE.length, 'products');
+  }catch(err){
+    console.warn('Using bundled catalogue — live load failed:', err.message);
+  }
+}
+
+function refreshAllGrids(){
+  const feat = CATALOGUE.filter(p => p.cat === 'Rackets').slice(0,10);
+  const grid = document.getElementById('featuredGrid');
+  if(grid && feat.length){
+    grid.innerHTML = feat.map((p,i)=>productCard(p,i)).join('');
+    grid.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+  }
+  const best = CATALOGUE.filter(p => p.cat !== 'Rackets').slice(0,4);
+  const bg = document.getElementById('bestGrid');
+  if(bg && best.length){
+    bg.innerHTML = best.map((p,i)=>productCard(p,i)).join('');
+    bg.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+  }
+  document.querySelectorAll('[data-count]').forEach(el=>{
+    const n = productsIn(el.dataset.count).length;
+    el.textContent = n + ' Product' + (n===1?'':'s');
+  });
+  initAllTilts();
+  syncWishHearts();
+  syncCompareBadges();
+}
 
 /* ============================================================
    INFO PANELS — about, stockists, shipping, size guide, FAQs
@@ -2890,6 +2964,9 @@ function openInfo(key){
     document.querySelectorAll('.ov.open').forEach(closeOv);
     quizState.step = 0; quizState.answers = {};
     renderQuiz();
+
+/* fetch the live catalogue from MongoDB (falls back silently if unavailable) */
+loadCatalogue();
     const target = document.getElementById('quiz');
     if(target){
       target.scrollIntoView({behavior:'smooth', block:'start'});
