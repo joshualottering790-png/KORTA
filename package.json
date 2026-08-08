@@ -1,0 +1,9 @@
+{
+  "name": "korta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KORTA - premium padel equipment",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+}
